@@ -1,0 +1,40 @@
+.season-winners-wrapper {
+  font-size: 14px;
+  margin: 15px;
+}
+
+.season-winners-wrapper #season-winners-title {
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.season-winners-wrapper .season-winners-listing {
+  border-collapse: collapse;
+  box-shadow: 0 0 15px #aaa;
+}
+.season-winners-wrapper .season-winners-listing > .headings .heading {
+  background: green;
+  color: white;
+}
+
+.season-winners-wrapper .season-winners-listing > .winners .table-row > div {
+  border: 1px solid green;
+}
+
+.season-winners-wrapper
+  .season-winners-listing
+  > .winners
+  .table-row.champion-highlight {
+  background-color: gold;
+  color: green;
+}
+
+.winners-loader {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .season-winners-wrapper {
+    font-size: 8px;
+  }
+}

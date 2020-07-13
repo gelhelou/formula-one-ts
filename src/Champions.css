@@ -1,0 +1,40 @@
+.world-champions-wrapper {
+  font-size: 14px;
+  width: 60%;
+  margin: 50px auto;
+  border-collapse: collapse;
+}
+
+.world-champions-wrapper #world-champions-title {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.world-champions-wrapper .world-champions-listing > .headings .heading {
+  background: goldenrod;
+  color: white;
+}
+
+.world-champions-wrapper
+  .world-champions-listing
+  > .champions
+  .table-row
+  > div {
+  border: 1px solid goldenrod;
+}
+
+.champions-loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 768px) {
+  .world-champions-wrapper {
+    font-size: 8px;
+    width: 80%;
+  }
+}

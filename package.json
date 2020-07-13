@@ -35,5 +35,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react-loader-spinner": "^3.1.0",
+    "@types/react-redux": "^7.1.9",
+    "react-loader-spinner": "^3.1.14",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "tslint": "^6.1.2",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-react": "^5.0.0"
   }
 }
